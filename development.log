@@ -1,0 +1,314 @@
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 471
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "iFadiEp1FV",
+			"correlationId": "769p91zPYq",
+			"clickedPath": "C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 471
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent",
+			"parentProperty": "data$"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent",
+			"parentProperty": "data$"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "iFadiEp1FV",
+			"correlationId": "769p91zPYq",
+			"clickedPath": "C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject-external: {
+	"action": "injectable/inject-external",
+	"params": {
+		"entityFilePath": "C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"externalId": "httpClient"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "iFadiEp1FV",
+			"correlationId": "769p91zPYq",
+			"clickedPath": "C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject-external"
+}
+[info] [CLI] Calling Command injectable/inject-external: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"externalId": "httpClient"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject-external"
+}
+[error] [API]: Error Manipulation error: A syntax error was inserted.
+
+[96m../../../../../Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts[0m:[93m18[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m18[0m   constructor() {
+[7m  [0m [91m                ~[0m
+[96m../../../../../Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m20[0m }
+[7m  [0m [91m~[0m
+
+Error replacing tree: The children of the old and new trees were expected to have the same count (5:6).
+
+-- Details --
+Path: C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts
+Text: "...Push,\r\n})\r\nexport class EmployeeListComponent {\r\n  data$: Observable<EmployeeModel[] | null> = this.\n\n  constructor() {\n  }\n}\r\n"
+Stack: Error: Error replacing tree: The children of the old and new trees were expected to have the same count (5:6).
+    at ParentFinderReplacementNodeHandler.handleChildren (C:\Users\Beffi\AppData\Roaming\JetBrains\WebStorm2022.2\plugins\LowgularJPlugin\cli\node_modules\ts-morph\dist\ts-morph.js:1438:19)
+    at ParentFinderReplacementNodeHandler.handleNode (C:\Users\Beffi\AppData\Roaming\JetBrains\WebStorm2022.2\plugins\LowgularJPlugin\cli\node_modules\ts-morph\dist\ts-morph.js:1432:18)
+    at ParentFinderReplacementNodeHandler.handleNode (C:\Users\Beffi\AppData\Roaming\JetBrains\WebStorm2022.2\plugins\LowgularJPlugin\cli\node_modules\ts-morph\dist\ts-morph.js:1572:19)
+    at doManipulation (C:\Users\Beffi\AppData\Roaming\JetBrains\WebStorm2022.2\plugins\LowgularJPlugin\cli\node_modules\ts-morph\dist\ts-morph.js:2284:21)
+    at insertIntoBracesOrSourceFile (C:\Users\Beffi\AppData\Roaming\JetBrains\WebStorm2022.2\plugins\LowgularJPlugin\cli\node_modules\ts-morph\dist\ts-morph.js:2488:5)
+    at insertIntoBracesOrSourceFileWithGetChildren (C:\Users\Beffi\AppData\Roaming\JetBrains\WebStorm2022.2\plugins\LowgularJPlugin\cli\node_modules\ts-morph\dist\ts-morph.js:2519:5)
+    at insertChildren (C:\Users\Beffi\AppData\Roaming\JetBrains\WebStorm2022.2\plugins\LowgularJPlugin\cli\node_modules\ts-morph\dist\ts-morph.js:14429:12)
+    at ClassDeclaration.insertConstructors (C:\Users\Beffi\AppData\Roaming\JetBrains\WebStorm2022.2\plugins\LowgularJPlugin\cli\node_modules\ts-morph\dist\ts-morph.js:14055:20)
+    at ClassDeclaration.insertConstructor (C:\Users\Beffi\AppData\Roaming\JetBrains\WebStorm2022.2\plugins\LowgularJPlugin\cli\node_modules\ts-morph\dist\ts-morph.js:14051:25)
+    at addConstructorParams (C:\Users\Beffi\AppData\Roaming\JetBrains\WebStorm2022.2\plugins\LowgularJPlugin\cli\main.js:9674:30): {
+	"loggerData": {
+		"action": "injectable/inject-external",
+		"params": {
+			"entityFilePath": "C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"externalId": "httpClient"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "iFadiEp1FV",
+				"correlationId": "769p91zPYq",
+				"clickedPath": "C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {
+		"filePath": "C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"oldText": "import {\r\n  ChangeDetectionStrategy,\r\n  Component,\r\n  ViewEncapsulation,\r\n} from '@angular/core';\r\nimport { Observable, of } from 'rxjs';\r\nimport { EmployeeModel } from '../../model/employee.model';\r\n\r\n@Component({\r\n  selector: 'employee-list',\r\n  templateUrl: './employee-list.component.html',\r\n  encapsulation: ViewEncapsulation.None,\r\n  changeDetection: ChangeDetectionStrategy.OnPush,\r\n})\r\nexport class EmployeeListComponent {\r\n  data$: Observable<EmployeeModel[] | null> = this.\r\n}\r\n",
+		"newText": "import {\r\n  ChangeDetectionStrategy,\r\n  Component,\r\n  ViewEncapsulation,\r\n} from '@angular/core';\r\nimport { Observable, of } from 'rxjs';\r\nimport { EmployeeModel } from '../../model/employee.model';\r\n\r\n@Component({\r\n  selector: 'employee-list',\r\n  templateUrl: './employee-list.component.html',\r\n  encapsulation: ViewEncapsulation.None,\r\n  changeDetection: ChangeDetectionStrategy.OnPush,\r\n})\r\nexport class EmployeeListComponent {\r\n  data$: Observable<EmployeeModel[] | null> = this.\n\n  constructor() {\n  }\n}\r\n"
+	},
+	"stack": "Error: Manipulation error: A syntax error was inserted.\n\n\u001b[96m../../../../../Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts\u001b[0m:\u001b[93m18\u001b[0m:\u001b[93m17\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m';' expected.\n\n\u001b[7m18\u001b[0m   constructor() {\n\u001b[7m  \u001b[0m \u001b[91m                ~\u001b[0m\n\u001b[96m../../../../../Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts\u001b[0m:\u001b[93m20\u001b[0m:\u001b[93m1\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1128: \u001b[0mDeclaration or statement expected.\n\n\u001b[7m20\u001b[0m }\n\u001b[7m  \u001b[0m \u001b[91m~\u001b[0m\n\nError replacing tree: The children of the old and new trees were expected to have the same count (5:6).\n\n-- Details --\nPath: C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts\nText: \"...Push,\\r\\n})\\r\\nexport class EmployeeListComponent {\\r\\n  data$: Observable<EmployeeModel[] | null> = this.\\n\\n  constructor() {\\n  }\\n}\\r\\n\"\nStack: Error: Error replacing tree: The children of the old and new trees were expected to have the same count (5:6).\n    at ParentFinderReplacementNodeHandler.handleChildren (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:1438:19)\n    at ParentFinderReplacementNodeHandler.handleNode (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:1432:18)\n    at ParentFinderReplacementNodeHandler.handleNode (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:1572:19)\n    at doManipulation (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:2284:21)\n    at insertIntoBracesOrSourceFile (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:2488:5)\n    at insertIntoBracesOrSourceFileWithGetChildren (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:2519:5)\n    at insertChildren (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:14429:12)\n    at ClassDeclaration.insertConstructors (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:14055:20)\n    at ClassDeclaration.insertConstructor (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:14051:25)\n    at addConstructorParams (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:9674:30)\n    at throwError (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:2300:19)\n    at doManipulation (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:2294:13)\n    at insertIntoBracesOrSourceFile (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:2488:5)\n    at insertIntoBracesOrSourceFileWithGetChildren (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:2519:5)\n    at insertChildren (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:14429:12)\n    at ClassDeclaration.insertConstructors (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:14055:20)\n    at ClassDeclaration.insertConstructor (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:14051:25)\n    at addConstructorParams (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:9674:30)\n    at injectExternalDependencyCommandHandler (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11148:48)\n    at async dispatchCommand (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:8488:26)",
+	"level": "error",
+	"message": "[API]: Error Manipulation error: A syntax error was inserted.\n\n\u001b[96m../../../../../Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts\u001b[0m:\u001b[93m18\u001b[0m:\u001b[93m17\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m';' expected.\n\n\u001b[7m18\u001b[0m   constructor() {\n\u001b[7m  \u001b[0m \u001b[91m                ~\u001b[0m\n\u001b[96m../../../../../Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts\u001b[0m:\u001b[93m20\u001b[0m:\u001b[93m1\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1128: \u001b[0mDeclaration or statement expected.\n\n\u001b[7m20\u001b[0m }\n\u001b[7m  \u001b[0m \u001b[91m~\u001b[0m\n\nError replacing tree: The children of the old and new trees were expected to have the same count (5:6).\n\n-- Details --\nPath: C:/Users/Beffi/WebstormProjects/ZADANIE1/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts\nText: \"...Push,\\r\\n})\\r\\nexport class EmployeeListComponent {\\r\\n  data$: Observable<EmployeeModel[] | null> = this.\\n\\n  constructor() {\\n  }\\n}\\r\\n\"\nStack: Error: Error replacing tree: The children of the old and new trees were expected to have the same count (5:6).\n    at ParentFinderReplacementNodeHandler.handleChildren (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:1438:19)\n    at ParentFinderReplacementNodeHandler.handleNode (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:1432:18)\n    at ParentFinderReplacementNodeHandler.handleNode (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:1572:19)\n    at doManipulation (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:2284:21)\n    at insertIntoBracesOrSourceFile (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:2488:5)\n    at insertIntoBracesOrSourceFileWithGetChildren (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:2519:5)\n    at insertChildren (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:14429:12)\n    at ClassDeclaration.insertConstructors (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:14055:20)\n    at ClassDeclaration.insertConstructor (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\ts-morph\\dist\\ts-morph.js:14051:25)\n    at addConstructorParams (C:\\Users\\Beffi\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:9674:30)"
+}
